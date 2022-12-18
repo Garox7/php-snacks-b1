@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lato', sans-serif;  
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-tab {
+    width: 600px;
+
+}
+
+.match-tab .header {
+    background-color: #01579b;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+}
+
+.match-tab .header h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 1rem;
+}
+
+.match-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.match-container .match-info {
+    flex: 0 0 50%;
+    padding: 2rem 1rem;
+    border: 1px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teams-info, .result {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.teams-info {
+    flex: 1 1 60%;
+    border-right: .1rem solid #ebebeb;
+}
+
+.result {
+    align-items: center;
+    padding: 0 1rem;
+}
